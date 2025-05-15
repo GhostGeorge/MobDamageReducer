@@ -1,0 +1,12 @@
+name: MobDamageReducer
+version: 1.0
+main: me.ghostgeorge.mobDamageReducer.MobDamageReducer
+api-version: 1.21
+description: Reduces mob damage while keeping Hard mode mechanics.
+
+commands:
+  mobdamagereducer:
+    description: Change mob damage difficulty or toggle the plugin
+    usage: /mobdamagereducer <easy|normal|invincible|on|off>
+    permission: mobdamagereducer.use
+    permission-message: You don't have permission to use this command.
